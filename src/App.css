@@ -1,1 +1,59 @@
-/* Add your custom css here */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form,
+div {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
